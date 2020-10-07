@@ -1,9 +1,13 @@
 import React from 'react';
+import GlobalStyle from './styles/Global';
 
-const App: React.FC = () => {
-    return (
-        <h1>Hello World</h1>
-    )
-}
+import Signin from './Pages/Signin';
+
+const App: React.FC = () => (
+  <>
+    <Signin />
+    <GlobalStyle />
+  </>
+);
 
 export default App;

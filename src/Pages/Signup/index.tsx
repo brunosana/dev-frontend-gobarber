@@ -38,7 +38,7 @@ const Signup: React.FC = () => {
       <Background />
       <Content>
         <img src={logoImg} alt="Logo" />
-        <Form ref={formRef} initialData={{ name: '' }} onSubmit={handleSubmit}>
+        <Form ref={formRef} onSubmit={handleSubmit}>
           <h1>Faça seu Cadastro</h1>
           <Input name="name" icon={FiUser} placeholder="Nome" />
           <Input name="email" icon={FiMail} placeholder="E-mail" />
